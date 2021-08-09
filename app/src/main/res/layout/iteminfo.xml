@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:outlineSpotShadowColor="#1A1A1B"
+        app:cardElevation="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtid"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:drawableLeft="@drawable/ic_baseline_person_24"
+                android:gravity="center"
+                android:text="id"
+
+                android:textColor="@color/black"
+                android:textSize="20sp"></TextView>
+
+            <Button
+                android:id="@+id/btclick"
+                android:layout_width="46dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+
+                android:background="@drawable/ic_star"
+                app:backgroundTint="@android:color/holo_orange_light">
+
+            </Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:layout_marginTop="50dp"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:drawableLeft="@drawable/ic_baseline_assignment_24"
+                android:drawablePadding="15dp"
+                android:text="Address"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <!--            <TextView-->
+            <!--                android:id="@+id/txtcity"-->
+            <!--                android:layout_width="305dp"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginLeft="10dp"-->
+            <!--                android:layout_marginTop="5dp"-->
+            <!--                android:drawableLeft="@drawable/ic_baseline_add_location_24"-->
+            <!--                android:text="city"-->
+            <!--                android:textColor="@color/black"-->
+            <!--                android:textSize="20sp" />-->
+
+            <!--            <TextView-->
+            <!--                android:id="@+id/txtlocation"-->
+            <!--                android:layout_width="305dp"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginLeft="10dp"-->
+            <!--                android:layout_marginTop="5dp"-->
+            <!--                android:drawableLeft="@drawable/ic_baseline_add_location_24"-->
+            <!--                android:text="location"-->
+            <!--                android:textColor="@color/black"-->
+            <!--                android:textSize="20sp" />-->
+
+            <!--            <TextView-->
+            <!--                android:id="@+id/txtcontact"-->
+            <!--                android:layout_width="305dp"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginLeft="10dp"-->
+            <!--                android:layout_marginTop="5dp"-->
+            <!--                android:drawableLeft="@drawable/ic_baseline_add_location_24"-->
+            <!--                android:text="contact"-->
+            <!--                android:textColor="@color/black"-->
+            <!--                android:textSize="20sp" />-->
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="11dp"
+            android:layout_marginTop="180dp"
+            android:background="#ECD8D8"></View>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
